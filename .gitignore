@@ -1,4 +1,18 @@
+# Ejecutables y resultados
 build/
 *.o
 *.out
 *.exe
+
+# Herramientas extraídas: se regeneran desde los ZIP oficiales
+tests/public/
+tools/test_gen/
+tools/oracle/
+tools/profiler_examples/
+
+# Archivos locales de Sublime
+*.sublime-workspace
+
+# Informes de profiling
+callgrind.out*
+massif.out*
