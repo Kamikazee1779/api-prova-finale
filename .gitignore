@@ -16,3 +16,4 @@ tools/profiler_examples/
 # Informes de profiling
 callgrind.out*
 massif.out*
+*:Zone.Identifier
